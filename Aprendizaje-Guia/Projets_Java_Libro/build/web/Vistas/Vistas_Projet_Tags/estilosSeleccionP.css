@@ -1,0 +1,42 @@
+/* 
+    Created on : 15/04/2021, 02:36:54 PM
+    Author     : JuanCamiloDev
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#titulo-principal{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    /*background-color: green;*/
+}
+
+body{
+    background-color: gray;
+}
+
+#contenedor-padre{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /*background-color: yellow;*/
+}
+
+.contenedor{
+    margin: 15px;
+    padding: 15px;
+    width: 305px;
+    height: auto;
+    text-align: center;
+    background-color: green;
+}
+
+.enlaces{
+    font-size: 25px;
+    color: white;
+}
