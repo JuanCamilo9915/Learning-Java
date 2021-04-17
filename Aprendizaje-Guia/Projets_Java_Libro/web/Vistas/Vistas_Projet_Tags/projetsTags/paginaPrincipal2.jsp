@@ -27,7 +27,7 @@
                 <br>
                 Nota: (Ctrl + Clic) para elegir más de una opción
             </p>
-            <select name="idioma">
+            <select name="lenguajes">
                 <option>Java</option>
                 <option>JavaScript</option>
                 <option>Python</option>
