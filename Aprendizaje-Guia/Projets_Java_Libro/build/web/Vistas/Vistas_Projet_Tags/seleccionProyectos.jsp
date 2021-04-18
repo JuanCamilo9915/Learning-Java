@@ -28,12 +28,14 @@
                 </a>
             </div>
             <div class="contenedor">
-                <a class="enlaces" href="Vistas/Vistas_Projet_Tags/seleccionProyectos.jsp">
-                    Proyecto N.N.
+                <a class="enlaces" href="projetsTags/paginaPrincipal3.jsp">
+                    Trabajando con Área de Texto
                 </a>
             </div>
             <div class="contenedor">
-                <a class="enlaces" href="">Proyecto N.N.</a>
+                <a class="enlaces" href="">
+                    dfgdf
+                </a>
             </div>
             <div class="contenedor">
                 <a class="enlaces" href="">Proyecto N.N.</a>
