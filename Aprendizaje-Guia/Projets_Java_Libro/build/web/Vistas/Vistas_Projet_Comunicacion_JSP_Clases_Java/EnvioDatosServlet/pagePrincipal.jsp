@@ -13,7 +13,7 @@
     </head>
     <body>
         <label>Introduce los siguientes datos:</label><br>
-        <form>
+        <form action="pageDestino.jsp" method="post">
             <table cellspacing="3" celpadding="3" border="1">
                 <tr>
                     <td aling="center">Nombre:</td>
