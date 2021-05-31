@@ -1,0 +1,224 @@
+/* 
+    Created on : 23/05/2021, 04:22:04 PM
+    Author     : JuanCamiloDev
+*/
+#menu{
+    width: 100%;
+    height: 100px;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#contenedor-principal{
+    width: 100%;
+    height: 588px;
+    position: relative;
+}
+
+#flecha{
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    left: 0%;
+    /*background-color: coral;*/
+}
+
+#img-flecha{
+    width: 70px;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+
+#titulo-principal{
+    width: 90%;
+    height: 15%;
+    position: absolute;
+    right: 0%;
+    /*background-color: black;*/
+}
+
+#titulo{
+    font-size: 80px;
+    position: absolute;
+    left: 30%;
+}
+
+#area-usuario{
+    width: 1220px;
+    height: 425px;
+    margin: 0% auto 1% auto;
+    position: relative;
+    top: 15%;
+    border: 30px solid green;
+    background-color: lightblue;
+}
+
+#sect-busqueda{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    /*background-color: crimson;*/
+}
+
+#sect-libros{
+    width: 100%;
+    height: 63%;
+    position: absolute;
+    top: 20%;
+    /*background-color: orange;*/
+}
+
+.scroll-libros{
+    width: 1220px;
+    height: 270px;
+    overflow-y: scroll;
+    /*background-color: sienna;*/
+}
+
+.seccion-n{
+    width: 1200px;
+    height: 270px;
+    position: relative;
+}
+
+.espacio-1{
+    width: 25%;
+    height: 98%;
+    position: absolute;
+    left: 0%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    /*background-color: orangered;*/
+}
+
+.espacio-2{
+    width: 25%;
+    height: 98%;
+    position: absolute;
+    left: 25%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    /*background-color: palegreen;*/
+}
+
+.espacio-3{
+    width: 25%;
+    height: 98%;
+    position: absolute;
+    right: 25%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    /*background-color: olivedrab;*/
+}
+
+.espacio-4{
+    width: 25%;
+    height: 98%;
+    position: absolute;
+    right: 0%;
+    border-top: solid;
+    border-bottom: solid;
+    /*background-color: blanchedalmond;*//*Me gustó este color*/
+}
+
+.img-libro{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 7%;
+    left: 37%;
+}
+
+.descripcion-libro{
+    position: absolute;
+    top: 50%;
+    padding: 0% 7% 0% 7%;
+}
+
+.selector{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+}
+
+#busqueda{
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    font-size: 150%;
+    /*background-color: lightblue;*/
+}
+
+#img-busqueda{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 17%;
+    right: 30%;
+}
+
+#sect-botones{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0%;
+    /*background-color: blanchedalmond;*/
+}
+
+.btn-1{
+    width: 200px;
+    height: 50px;
+    font-size: 130%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    color: white;
+    background-color: orange;
+}
+.btn-2{
+    width: 200px;
+    height: 50px;
+    font-size: 130%;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    color: white;
+    background-color: orange;
+}
+.btn-3{
+    width: 200px;
+    height: 50px;
+    font-size: 130%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    color: white;
+    background-color: orange;
+}
+
+#pie-pag{
+    display: block;
+    width: 100%;
+    height: 62px;
+    background-color: green;
+}

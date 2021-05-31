@@ -1,0 +1,38 @@
+/* 
+    Created on : 23/05/2021, 09:06:21 PM
+    Author     : JuanCamiloDev
+*/
+#pie-pag{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: green;
+}
+
+#referencia-1{
+    position: absolute;
+    bottom: 0%;
+}
+
+.contenedor{
+    width: 20%;
+    height: auto;
+    margin: 0% 3% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+}
+
+.iconos{
+    width: 50px;
+    height: auto;
+}
+
+.der-autor{
+    position: absolute;
+    top: 20%;
+    font-size: 30px;
+    color: white;
+}
