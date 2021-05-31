@@ -1,0 +1,145 @@
+/* 
+    Created on : 3/05/2021, 03:53:33 PM
+    Author     : JuanCamiloDev
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    font-size: 85px;
+}
+
+main{
+    width: 100%;
+    height: 555px;
+    position: relative;
+    margin: auto;
+}
+
+#area-titulo{
+    width: 34%;
+    height: 60px;
+    position: absolute;
+    left: 32%;
+}
+
+h2{
+    font-size: 50px;
+    color: gray;
+}
+
+#area-campos{
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 10%;
+    /*background-color: coral;*/
+}
+
+#caja-1{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+#candado{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    right: 0%;
+    bottom: 60%;
+    margin: auto;
+}
+
+#pregunta-1{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 30%;
+    font-size: 150%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#caja-2{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+#pregunta-2{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 30%;
+    font-size: 150%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#caja-3{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+
+#pregunta-3{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 30%;
+    font-size: 150%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#boton-cambio-pass{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    right: 0%;
+    bottom: 10%;
+    margin: auto;
+}
+
+#estilos-boton{
+    width: 100%;
+    height: 100%;
+    font-size: 200%;
+    color: white;
+    font-family: Times-New-Roman;
+    background-color: green;
+}
+
+#estilos-boton:hover{
+    border-radius: 15px;
+    background-color: steelblue;
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+}

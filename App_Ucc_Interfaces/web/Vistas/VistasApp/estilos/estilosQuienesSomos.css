@@ -1,0 +1,68 @@
+/* 
+    Created on : 24/05/2021, 03:35:50 AM
+    Author     : JuanCamiloDev
+*/
+#menu{
+    width: 100%;
+    height: 100px;
+ }
+ 
+ main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ }
+
+#contenedor-principal{
+   width: 100%;
+   height: 588px;
+   position: relative;
+}
+
+#titulo-principal{
+   width: 100%;
+   height: 10%;
+   position: absolute;
+   /*background-color: yellow;*/
+}
+
+#titulo{
+   font-size: 50px;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   right: 0%;
+   bottom: 0%;
+}
+
+#area-usuario{
+   width: 1220px;
+   height: 455px;
+   margin: 0% auto 1% auto;
+   position: relative;
+   top: 10%;
+   border: 30px solid green;
+   background-color: lightblue;
+}
+
+.seccion-ucc{
+    width: 100%;
+    height: 152px;
+    /*background-color: bisque;*/
+}
+
+.etiqueta{
+    font-size: 30px;
+}
+
+.parrafo{
+    margin: 0% 5% 0% 5%;
+    font-size: 19px;
+}
+
+#pie-pag{
+    display: block;
+    width: 100%;
+    height: 62px;
+    background-color: green;
+ }

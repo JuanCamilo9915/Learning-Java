@@ -1,0 +1,160 @@
+/* 
+    Created on : 3/05/2021, 03:54:20 PM
+    Author     : JuanCamiloDev
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    font-size: 95px;
+}
+
+main{
+    width: 100%;
+    height: 555px;
+    font-family: Times-New-Roman;
+}
+
+#contenedor-login{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.contenedor-img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+}
+
+#img-login{
+    width: 90%;
+    height: 90%;
+    margin: 3% 0% 0% 5%;
+}
+
+.contenedor-form{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+
+#sub-titulo{
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    font-size: 40px;
+}
+
+#img-sesion{
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 17%;
+    left: 44%;
+}
+
+.input-1{
+    width: 370px;
+    height: 45px;
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    text-align: center;
+    font-size: 200%;
+    background-color: lightblue;
+}
+
+.mensaje-error-credenciales{
+    width: 370px;
+    height: 45px;
+    position: absolute;
+    top: 54%;
+    left: 27%;
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+
+.input-2{
+    width: 370px;
+    height: 45px;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    text-align: center;
+    font-size: 200%;
+    background-color: lightblue;
+}
+#btn-ingresar{
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top: 75%;
+    left: 37%;
+    align-content: center;
+    font-size: 200%;
+    color: white;
+    font-family: Times-New-Roman;
+    background-color: green;
+}
+
+/*Hover:*/
+#btn-ingresar:hover{
+    border-radius: 15px;
+    background-color: steelblue;
+}
+
+.registro{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    font-size: 25px;
+}
+
+.enlace-registro{
+    color: black;
+}
+
+/*Hover:*/
+.enlace-registro:hover{
+    font-size: 30px;
+    color: steelblue;
+}
+
+.olvido-pass{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    font-size: 25px;
+}
+
+.enlace-olvido-pass{
+    color: black;
+}
+
+/*Hover:*/
+.enlace-olvido-pass:hover{
+    font-size: 30px;
+    color: steelblue;
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+}
