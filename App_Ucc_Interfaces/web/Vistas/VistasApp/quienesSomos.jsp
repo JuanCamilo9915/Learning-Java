@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>¿Quienes Somos?</title>
-        <link rel="shortcut icon" href="/App_Ucc_Interfaces/Vistas/Resources/logoucc.png" type="image/x-icon">
+        <link rel="shortcut icon" href="/App_Ucc_Interfaces/Vistas/Resources/universidad.svg" type="image/x-icon">
         <!---Importando CSS--->
         <link rel="stylesheet" href="/App_Ucc_Interfaces/Vistas/PartesReutilizables/MenuSecundario/estilosMenuOpc.css">
         <link rel="stylesheet" href="/App_Ucc_Interfaces/Vistas/VistasApp/estilos/estilosQuienesSomos.css">
@@ -26,7 +26,7 @@
 
             <section id="area-usuario">
                 <div class="seccion-ucc">
-                    <label class="etiqueta">Universidad Cooperativa de Colombia</label>
+                    <label class="etiqueta">Universidad tal...</label>
                     <br><br>
                     <p class="parrafo">
                         <%

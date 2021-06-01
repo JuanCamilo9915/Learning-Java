@@ -13,7 +13,7 @@
         <!--Importando Estilos Menú Css-->
         <link rel="stylesheet" href="Vistas/PartesReutilizables/MenuInicial/estilosMenu.css"/>
         <!--Importando Estilos Css-->
-        <link rel="shortcut icon" href="Vistas/Resources/logoucc.png" type="image/x-icon">
+        <link rel="shortcut icon" href="Vistas/Resources/universidad.svg" type="image/x-icon">
         <link rel="stylesheet" href="estilos/estilosLogin.css"/>
         <!--Importando Estilos Pie de Página Css-->
         <link rel="stylesheet" href=""/>
@@ -81,6 +81,8 @@
                 Iconos diseñados por
                 <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
                 <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
+                <!---<div>Iconos diseñados por <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from
+                <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>----->
             </div>
         </footer>
         <!-----------------------------Importando Archivos JS---------------------------->

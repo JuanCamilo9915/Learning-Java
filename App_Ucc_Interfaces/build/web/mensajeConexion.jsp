@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Fallo en la Base de Datos</title>
         <!--Importando Estilos Css-->
-        <link rel="shortcut icon" href="Vistas/Resources/logoucc.png" type="image/x-icon">
+        <link rel="shortcut icon" href="Vistas/Resources/universidad.svg" type="image/x-icon">
         <link rel="stylesheet" href="estilos/estilosMensajeError.css"/>
     </head>
     <body>
@@ -30,7 +30,7 @@
         <footer>
             <section>
                 <p class="dep-ti">Departamento de TI</p>
-                <img src="Vistas/Resources/logoucc.png" id="logo-ucc">
+                <img src="Vistas/Resources/universidad.svg" id="logo-ucc">
             </section>
         </footer>
     </body>

@@ -28,13 +28,13 @@ redInstagram.innerHTML = redInstagram.src = '/App_Ucc_Interfaces/Vistas/Resource
 redYouTube.innerHTML = redYouTube.src = '/App_Ucc_Interfaces/Vistas/Resources/youtube.png';
 
 /*************************************************Rutas de las Imágenes***********************************************************/
-enlaceTwitter.href = 'https://twitter.com/unicoopsedecali?lang=es';
+enlaceTwitter.href = 'https://twitter.com/login?lang=es';
 enlaceTwitter.target = 'twitter';
-enlaceFacebook.href = 'https://es-la.facebook.com/ucooperativadecolombia.cali/';
+enlaceFacebook.href = 'https://www.facebook.com/';
 enlaceFacebook.target = 'facebook';
-enlaceInstagram.href = 'https://www.instagram.com/ucc_calioficial/?hl=es-la';
+enlaceInstagram.href = 'https://www.instagram.com/?hl=es-la';
 enlaceInstagram.target = 'instagram';
-enlaceYouTube.href = 'https://www.youtube.com/c/UniversidadCooperativadeColombiaCampusCali';
+enlaceYouTube.href = 'https://www.youtube.com/';
 enlaceYouTube.target = 'youtube';
 
 /************************************************Añadiendo Clases HTML***************************************************************/

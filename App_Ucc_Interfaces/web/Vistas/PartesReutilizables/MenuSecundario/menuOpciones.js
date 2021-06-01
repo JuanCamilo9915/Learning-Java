@@ -102,7 +102,7 @@ function hijoElementoLi(i) {
    let elementoItemLi1 = document.createElement('li');
 
    opciones.innerHTML = opciones.src = menuItems[i];
-   opciones.classList.add('masOpciones')
+   opciones.classList.add('masOpciones');
    contentP2.appendChild(opciones);
    contentP2.classList.add('items-menu-p');
    listaItemsP1.appendChild(contentP2);//Fragmento
@@ -121,7 +121,7 @@ function hijoElementoLi(i) {
 
 /*Asociando el Logo de la Ucc al menu de navegación-----------------------------------------------------------------------------*/
 function logoUcc(imagLogoUcc, fragmentUccLogo) {
-   imagLogoUcc.innerHTML = imagLogoUcc.src = '/App_Ucc_Interfaces/Vistas/Resources/logoucc.png';
+   imagLogoUcc.innerHTML = imagLogoUcc.src = '/App_Ucc_Interfaces/Vistas/Resources/universidad.svg';
    imagLogoUcc.classList.add('logo');//Se le agrega la clase logo
    fragmentUccLogo.appendChild(imagLogoUcc);
 }

@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registro Académico</title>
-        <link rel="shortcut icon" href="/App_Ucc_Interfaces/Vistas/Resources/logoucc.png" type="image/x-icon">
+        <link rel="shortcut icon" href="/App_Ucc_Interfaces/Vistas/Resources/universidad.svg" type="image/x-icon">
         <!---Importando CSS--->
         <link rel="stylesheet" href="/App_Ucc_Interfaces/Vistas/PartesReutilizables/MenuSecundario/estilosMenuOpc.css">
         <link rel="stylesheet" href="/App_Ucc_Interfaces/Vistas/VistasApp/estilos/estilosRegistroAca.css">

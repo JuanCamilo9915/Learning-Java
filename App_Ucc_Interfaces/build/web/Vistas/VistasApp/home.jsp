@@ -17,7 +17,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Página Principal</title>
-        <link rel="shortcut icon" href="/App_Ucc_Interfaces/Vistas/Resources/logoucc.png" type="image/x-icon">
+        <link rel="shortcut icon" href="/App_Ucc_Interfaces/Vistas/Resources/universidad.svg" type="image/x-icon">
         <!---Importando CSS--->
         <link rel="stylesheet" href="/App_Ucc_Interfaces/Vistas/PartesReutilizables/MenuSecundario/estilosMenuOpc.css">
         <link rel="stylesheet" href="/App_Ucc_Interfaces/Vistas/VistasApp/estilos/estilosHome.css">
@@ -56,7 +56,7 @@
                         <label id="etiqueta-central">¿Que vamos a consultar hoy?</label>
                     </div>
                     <div id="caja-4">
-                        <label class="nom-boton">Semilleros UCC</label>
+                        <label class="nom-boton">Semilleros</label>
                         <form action="/App_Ucc_Interfaces/Vistas/VistasApp/home.jsp">
                             <!--action="/App_Ucc_Interfaces/Vistas/VistasApp/semilleros.jsp"-->
                             <button class="btn-claro" id="btn-3" onclick="alert('Modulo en Desarrollo');">

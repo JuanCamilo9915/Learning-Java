@@ -10,10 +10,10 @@ let logoUccDer = document.createElement('img');
 let contenedorMenuFrag = document.createDocumentFragment();
 
 /************************************Asignando Valores**********************************/
-logoUccIzq.src = '/App_Ucc_Interfaces/Vistas/Resources/logoucc.png';
+logoUccIzq.src = '/App_Ucc_Interfaces/Vistas/Resources/universidad.svg';
 logoUccIzq.classList.add('logo-ucc-izq');
 tituloPrincipal.classList.add('titulo-principal');
-logoUccDer.src = '/App_Ucc_Interfaces/Vistas/Resources/logoucc.png';
+logoUccDer.src = '/App_Ucc_Interfaces/Vistas/Resources/universidad.svg';
 logoUccDer.classList.add('logo-ucc-der');
 
 contenedorMenu.appendChild(logoUccIzq);

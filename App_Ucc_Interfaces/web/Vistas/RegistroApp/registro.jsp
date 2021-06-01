@@ -13,7 +13,7 @@
         <!--Importando Estilos Menú Css-->
         <link rel="stylesheet" href="../PartesReutilizables/MenuInicial/estilosMenu.css"/>
         <!--Importando Estilos Css-->
-        <link rel="shortcut icon" href="../Resources/logoucc.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../Resources/universidad.svg" type="image/x-icon">
         <link rel="stylesheet" href="EstilosCss/estilosRegistro.css"/>
         <!--Importando Estilos Pie de Página Css-->
         <link rel="stylesheet" href=""/>  
