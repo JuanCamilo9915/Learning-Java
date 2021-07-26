@@ -1,3 +1,5 @@
+package AppPersonas;
+
 /**
   * @author JuanCamiloDev
  */
@@ -23,7 +25,7 @@ public class Persona {
     
     //Métodos de la clase Persona
     public void displayName(){
-        System.out.println("Name: " + name + " Last Name: " +lastName);
+        System.out.println("Name: " + this.name + " Last Name: " + this.lastName);
     }
     
     public String datosAcademicos(String uniP, String programaUniP){
@@ -35,20 +37,23 @@ public class Persona {
         this.uni = uni;
         this.programaUni = programaUni;*/
         
-        uni = uniP;
-        programaUni = programaUniP;
+        this.uni = uniP;
+        this.programaUni = programaUniP;
         
-        datosAcademicos = uni + " - " + programaUni;
+        return datosAcademicos = this.uni + " - " + this.programaUni;//funciona sin el this, pero se utiliza por buena practiva
         
-        return datosAcademicos;
+        //return datosAcademicos;
     }
     
-    public String datosAcademicos2(){
+    public String datosAcademicos2(){ 
+        
+        return this.uni + " - " + this.programaUni;//Retorno Directo
+        
         //Atributo del método
-        String datosAcademicos;
+        //String datosAcademicos;
         
-        datosAcademicos = uni + " - " + programaUni;
+        //datosAcademicos = uni + " - " + programaUni;
         
-        return datosAcademicos;
+        //return datosAcademicos;
     }
 }
