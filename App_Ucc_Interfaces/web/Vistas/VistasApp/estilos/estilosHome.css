@@ -1,0 +1,117 @@
+/* 
+    Created on : 23/05/2021, 01:24:35 PM
+    Author     : JuanCamiloDev
+*/
+ #menu{
+    width: 100%;
+    height: 100px;
+ }
+ 
+ main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*background-color: yellow;*//*--> tenerlo presente, me gustó :)*/
+ }
+ 
+ main #sect-titulo h1{
+    font-size: 65px;
+ }
+ 
+ #sect-central{
+    width: 1220px;
+    height: 439px;
+    margin: 0% auto 1% auto;
+    position: relative;
+    border: 30px solid green;
+    background-color: lightblue;
+ }
+
+ .nom-boton{
+     font-size: 20px;
+ }
+ 
+ #etiqueta-central{
+    font-size: 40px;
+    color: gray;
+ }
+ 
+ #caja-1{
+    width: 190px;
+    height: 140px;
+    position: absolute;
+    top: 4%;
+    left: 6%;
+ }
+ 
+ #caja-2{
+    width: 190px;
+    height: 140px;
+    position: absolute;
+    top: 4%;
+    right: 6%;
+ }
+ 
+ button{
+    text-align: center;
+    border-radius: 7%;
+ }
+ 
+ .dimensiones-btn{
+    width: 70%;
+    height: 70%;
+ }
+ 
+ .btn-verde{
+    width: 190px;
+    height: 140px;
+    background-color: green;
+ }
+ 
+ .btn-verde:hover{
+    background-color: yellowgreen;
+ }
+ 
+ .btn-claro{
+    width: 190px;
+    height: 140px;
+    background-color: gainsboro;
+ }
+ 
+ .btn-claro:hover{
+    background-color: yellowgreen;
+ }
+ 
+ #caja-3{
+    width: 480px;
+    height: 40px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+ }
+ 
+ #caja-4{
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    right: 6%;
+    bottom: 10%;
+ }
+ 
+ #caja-5{
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    left: 6%;
+    bottom: 10%;
+ }
+ 
+ #pie-pag{
+    display: block;
+    width: 100%;
+    height: 62px;
+    background-color: green;
+ }

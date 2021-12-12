@@ -1,0 +1,140 @@
+/* 
+    Created on : 23/05/2021, 01:12:26 PM
+    Author     : JuanCamiloDev
+*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo{
+    padding: 7px 0px 0px 7px;
+    width: 100px;
+    height: auto;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    /*background-color: darkslategray;*/ /*Me gustó ese color*/
+}
+
+.nav-menu{
+    display: flex;
+    width: 30%;
+    height: auto;
+    /*background-color: yellowgreen;*/
+}
+
+.lista-principal{
+    width: 90%;
+    height: auto;
+    list-style: none;
+    display: flex;
+    /*background-color: yellow;*/
+}
+
+.items-menu{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    /*background-color:darkkhaki;*/
+}
+
+.items-menu:hover{
+    background-color: yellowgreen;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p > a{
+    width: 50%;
+    height: auto;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p:hover a{
+    font-size: 25px;
+}
+
+.nav-menu .lista-principal .items-menu .sub-lista{
+    width: 50%;
+    height: auto;
+    display: none;
+    position: absolute;
+    background-color: green;
+    /*background-color: steelblue;*//*este color me gusto, y se ve muy bn*/
+}
+/*Sub-Menu*/
+.sub-lista{
+    position: absolute;
+    list-style: none;
+    padding: 0%;
+}
+
+.home{
+    width: 60px;
+    height: 60px;
+}
+
+.home:hover{
+    width: 70px;
+    height: 70px;
+}
+
+.masOpciones{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.masOpciones:hover{
+    width: 70px;
+    height: 70px;
+}
+
+.item-subMenu{
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    position: relative;
+    /*z-index: 15;*/
+}
+
+.item-subMenu:hover{
+    font-size: 20px;
+    background-color: yellowgreen;
+}
+
+.nav-menu .lista-principal .items-menu .sub-lista .item-subMenu > p{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.nav-menu .lista-principal .items-menu .sub-lista .item-subMenu > p > a{
+    width: 50%;
+    height: auto;
+    color: white;
+}
+
+.nav-menu .lista-principal .items-menu:hover .sub-lista{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.nav-menu .lista-principal .items-menu .sub-lista .item-subMenu > p > a:hover{
+    width: 110%;
+    height: auto;
+}

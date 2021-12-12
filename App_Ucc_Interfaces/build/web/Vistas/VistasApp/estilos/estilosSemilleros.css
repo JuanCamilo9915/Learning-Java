@@ -1,0 +1,70 @@
+/* 
+    Created on : 23/05/2021, 05:00:51 PM
+    Author     : JuanCamiloDev
+*/
+#menu{
+    width: 100%;
+    height: 100px;
+ }
+ 
+ main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ }
+
+#contenedor-principal{
+   width: 100%;
+   height: 588px;
+   position: relative;
+}
+
+#flecha{
+   width: 10%;
+   height: 15%;
+   position: absolute;
+   left: 0%;
+   /*background-color: coral;*/
+}
+
+#img-flecha{
+   width: 70px;
+   height: 100px;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   right: 0%;
+   bottom: 0%;
+   margin: auto;
+}
+
+#titulo-principal{
+   width: 90%;
+   height: 15%;
+   position: absolute;
+   right: 0%;
+   /*background-color: yellow;*/
+}
+
+#titulo{
+   font-size: 70px;
+   position: absolute;
+   left: 15%;
+}
+
+#area-usuario{
+   width: 1220px;
+   height: 425px;
+   margin: 0% auto 1% auto;
+   position: relative;
+   top: 15%;
+   border: 30px solid green;
+   background-color: lightblue;
+}
+
+#pie-pag{
+    display: block;
+    width: 100%;
+    height: 62px;
+    background-color: green;
+ }
