@@ -60,7 +60,8 @@
                             name="validar"
                             id="btn-ingresar"
                             onclick="validarCampos();"
-                            >Ingresar</button>
+                            >Ingresar
+                        </button>
 
                     </form>
 

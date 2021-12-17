@@ -8,8 +8,11 @@ function validarCamposRegis() {
     let usuPass2 = document.querySelector('.caja-5 .campos-registro').value;
     let usuTel = document.querySelector('.caja-6 .campos-registro').value;
 
-    if (usuNom !== "" && usuApe !== "" && usuEmail !== "" && usuPass !== "" && usuPass2 !== "" && usuTel !== "") {
-        alert(`Campos Diligenciados, usuNom: ${usuNom.value}, usuApe: ${usuApe}, usuEmail: ${usuEmail}, usuPass: ${usuPass}, usuPass2: ${usuPass2}, usuTel: ${usuTel}`);
+    if (usuNom !== "" && usuApe !== "" && usuEmail !== "" && usuPass !== "" && usuPass2 !== "" &&
+        usuTel !== "") {
+        
+        alert(`Campos Diligenciados, usuNom: ${usuNom.value}, usuApe: ${usuApe}, usuEmail: ${usuEmail},
+                usuPass: ${usuPass}, usuPass2: ${usuPass2}, usuTel: ${usuTel}`);
 
         let passIgual = (usuPass === usuPass2);
 
@@ -24,7 +27,8 @@ function validarCamposRegis() {
                 break;
 
             default:
-                alert(`Ingrese la misma contraseña. Contraseña: ${usuPass} - Confirmar Contraseña: ${usuPass2}`);
+                alert(`Ingrese la misma contraseña.
+                        Contraseña: ${usuPass} - Confirmar Contraseña: ${usuPass2}`);
                 /*
                 document.querySelector('.caja-4 .campos-registro').classList.add('pass-diferentes');
                 document.querySelector('.caja-5 .campos-registro').classList.add('pass-diferentes');

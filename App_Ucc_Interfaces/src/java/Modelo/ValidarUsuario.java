@@ -30,8 +30,8 @@ public class ValidarUsuario extends ConexionDB.DBMysql {
         String sql = "SELECT CORREO,PASS FROM USUARIOS WHERE CORREO = 'admin@gmail.com' "
                 + "AND PASS = '123';";
         */
-        String sql = "SELECT CORREO,PASS FROM USUARIOS WHERE CORREO = '" + usuRecibido.getEmail() + "' "
-                + "AND PASS = '" + usuRecibido.getPass() + "'";
+        String sql = "SELECT Email,Pass FROM USUARIOS WHERE Email = '" + usuRecibido.getEmail() + "' "
+                + "AND Pass = '" + usuRecibido.getPass() + "'";
         
         con = new DBMysql();
 
@@ -58,15 +58,20 @@ public class ValidarUsuario extends ConexionDB.DBMysql {
             //Mensaje de Depuración de error:
             //System.out.println("Email: "+usuRecibido.getEmail()+" Pass: "+usuRecibido.getPass());
         } finally {
+            //Evaluando el Resultado
             if (resultado != null && resultado.isClosed() == false) {
                 resultado.close();
             }
             resultado = null;
+
+            //Evaluando el Estado de Conexión
             if (estadoCon != null && estadoCon.isClosed() == false) {
                 estadoCon.close();
 
             }
             estadoCon = null;
+
+            //Evaluando la Validación de la Conexión
             if (validarCon != null & validarCon.isClosed() == false) {
                 validarCon.close();
 

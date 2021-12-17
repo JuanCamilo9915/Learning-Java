@@ -6,9 +6,6 @@ import Modelo.ValidarUsuario;
 
 //Imports obligatorios de un servlet
 import java.io.IOException;
-/*import static java.lang.System.out;
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;*/
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -49,10 +46,8 @@ public class ControlIngreso extends HttpServlet {
             System.out.println("Base de Datos Desconectada :(");
             response.sendRedirect("mensajeConexion.jsp");
         }
-        /*
-        Fin (Cierre del Método doPost),
-        Comentario de Referencia
-         */
+        /*Fin (Cierre del Método doPost),
+        Comentario de Referencia*/
     }
 
     @Override
@@ -88,9 +83,12 @@ public class ControlIngreso extends HttpServlet {
         Usu datosUsu;
         //System.out.println("Dentro del método validarUsuC");
         datosUsu = enviarUsuario(request);
-        
+
         //datosUsu = this.obtenerUsuario(request);
         System.out.println("datosUsu: " + datosUsu);
+        //Test
+        System.out.println("datosUsu Email: " + datosUsu.getEmail());
+        System.out.println("datosUsu Password: " + datosUsu.getPass());
         validarU = new ValidarUsuario();
 
         datosUsu = validarU.validarUsu(datosUsu);
@@ -98,13 +96,12 @@ public class ControlIngreso extends HttpServlet {
         //Mensaje de Prueba
         //System.out.println("datosUsu, afuera del if: "+datosUsu);
         //System.out.println("datosUsu Validado, fuera del if: " + datosUsu);
-        
         if (datosUsu != null) {
 
             sesion = request.getSession();
             sesion.setAttribute("visitante", datosUsu);
             request.setAttribute("msje", "Bienvenido");
-            
+
             this.getServletConfig().getServletContext().getRequestDispatcher("/Vistas/VistasApp/home.jsp").forward(request, response);
 
         } else {

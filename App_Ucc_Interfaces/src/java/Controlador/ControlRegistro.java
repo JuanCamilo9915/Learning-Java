@@ -63,7 +63,9 @@ public class ControlRegistro extends HttpServlet {
         */
         
         //Valida si los campos están diligenciados:
-        if (nomUsu != "" && apeUsu != "" && correoUsu != "" && passUsu != "" && pass2Usu != "" && telUsu != "") {
+        if (nomUsu != "" && apeUsu != "" && correoUsu != "" && passUsu != "" &&
+            pass2Usu != "" && telUsu != "") {
+
             System.out.println("Campos Diligenciados Correctamente");
             if (passUsu.equals(pass2Usu)) {
                 System.out.println("Registrando al Nuevo Usuario");
